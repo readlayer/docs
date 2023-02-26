@@ -1,6 +1,6 @@
-# Website
+# ReadLayer Official Documentation
 
-ReadLayer official documentation, built with [Docusaurus 2](https://docusaurus.io/).
+Built with [Docusaurus 2](https://docusaurus.io/).
 
 ### Installation
 
