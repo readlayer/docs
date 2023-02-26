@@ -1,6 +1,6 @@
 # ReadLayer official documentation
 
-Check the documentation at https://docs.readlayer.com.
+Live at https://docs.readlayer.com.
 
 ### Installation
 
