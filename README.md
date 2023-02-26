@@ -1,6 +1,6 @@
-# ReadLayer Official Documentation
+# ReadLayer official documentation
 
-Built with [Docusaurus 2](https://docusaurus.io/).
+Check the documentation at https://docs.readlayer.com.
 
 ### Installation
 
@@ -44,3 +44,11 @@ Not using SSH:
 $ GIT_USER=gitUsername GIT_PASS=gitPass USE_SSH=false npm run deploy
 ```
 
+### Contributing
+
+This documentation site is built with [Docusaurus 2](https://docusaurus.io/). 
+We are thankful for any contributions from the community.
+
+### Contact
+
+Visit https://readlayer.com for contact information.
