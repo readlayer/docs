@@ -9,4 +9,4 @@ All notable fixes and features are documented here.
 
 ## 0.32
 
-- 🎉 Initial version!!
+- 🎉 Initial version!!🤖
