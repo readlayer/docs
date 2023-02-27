@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 title: Changelog
 description: All changes related to each version
 slug: /changelog
