@@ -1,0 +1,127 @@
+---
+sidebar_position: 2
+title: Queries
+description: Different ways to search
+slug: /queries
+---
+
+import HL from '../src/components/Highlight/Highlight'
+
+## Types
+
+### Strict
+
+Use it when you are looking for the exact term.
+
+By default, it is:
+- Diacritic-Sensitive
+- Case-Insensitive
+- Matches partial words
+
+:::tip
+You can always change the diacritic, case sensitivity, or whole word matching directly in the item settings.
+:::
+
+
+#### Examples
+
+Query: `page`
+
+> The <HL>page</HL>s are red
+
+> You can find that text on the same <HL>page</HL>
+
+> <HL>Page</HL> number 5
+
+Query: `canción`
+
+> La cancion sonaba sin parar
+
+> Toca otra vez esa <HL>canción</HL>
+
+
+### Regex
+
+Use regular expressions to highlight.
+
+#### Examples
+
+Query: `(\p{N})+`
+
+Goal: find numbers
+
+> The current population increase is estimated at <HL>67</HL> million people per year
+
+> Page number <HL>5</HL>
+
+---
+
+Query: `\p{Sc}`
+
+Goal: find currency symbols
+
+> In November 2016, Tesla acquired SolarCity, in an all-stock <HL>$</HL>2.6 billion deal
+
+---
+
+Query: `(stop)\w*`
+
+Goal: find all words starting with "stop"
+
+> Please <HL>stop</HL> there
+
+> You are <HL>stopping</HL> at the end
+
+
+### Similar
+
+Find similar terms or passages.
+
+:::tip
+If you use double **quotes** `"`, ReadLayer will behave in the same way as with the [Strict](#strict) query.
+You can combine strict and similar terms or sentences.
+:::
+
+By default, this type of query will use your **language** settings defined in _Settings > Language_.
+However, you can fine tune each of your queries to use a different language. Once you have created a new item, adjust its language in the item settings.
+
+:::note
+Currently, ReadLayer finds related terms by inflection, not semantically.
+:::
+
+
+#### Examples
+
+Query: `"miR-378"`
+
+Goal: find exact match
+
+> <HL>miR-378</HL> suppresses the proliferation, migration and invasion of colon cancer cells by inhibiting SDAD1
+
+---
+
+Query: `"miR-378" "SDAD1"`
+
+Goal: find passages where the terms "miR-378" and "SDAD1" are near each other
+
+> We found that miR-378 expression was low in colon cancer tissues and cell lines. Overexpression of miR-378 not only inhibits the proliferation of colon cancer cells in vitro by inducing apoptosis, but also inhibits migration and invasion by inhibiting the EMT of colon cancer cells.
+<HL>SDAD1 is a direct target gene of miR-378</HL>. We also confirmed that miR-378 alleviated the malignant phenotypes of colon cancer cells by inhibiting the Wnt/β-catenin pathway.
+Conclusion: <HL>miR-378 inhibits the proliferation, migration and invasion of colon cancer cells by targeting SDAD1</HL>.
+
+---
+
+Query: `"BORIS" regulation`
+
+Goal: Find the term "BORIS" near related terms to "regulation".
+
+> The evolution of epigenetic <HL>regulators CTCF and BORIS</HL>/CTCFL in amniotes.
+
+> This indicates that <HL>BORIS might have important regulatory</HL> roles in tumor immortalization during tumorigenesis.
+
+---
+
+Query: `fire weld arrest`
+
+Goal: Find passages that talk about the people arrested for starting a fire by welding
+
+> The interior minister, Manuel Monsalve, confirmed that 17 people had been <HL>arrested for possibly starting fires by such activities as welding</HL> or burning wool.
