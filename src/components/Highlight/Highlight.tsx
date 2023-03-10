@@ -1,6 +1,6 @@
 import React from "react";
 
-const Highlight = ({children, color='#fffe7e'}) => (
+const Highlight = ({children, color='#ff94dc'}) => (
     <span style={{
                     backgroundColor: color,
                     borderRadius: '2px',
