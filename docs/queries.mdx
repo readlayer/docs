@@ -33,16 +33,33 @@ Query: `page`
 
 > <HL>Page</HL> number 5
 
+---
+
 Query: `canción`
 
 > La cancion sonaba sin parar
 
 > Toca otra vez esa <HL>canción</HL>
 
+---
+
+Query: `😍`
+
+> I love that song <HL>😍</HL>
+
 
 ### Regex
 
 Use regular expressions to highlight.
+
+:::info
+ReadLayer supports ECMAScript Regex (JavaScript regular expressions) with support for Unicode (u flag).
+:::
+
+:::caution
+The forward slash character `/` is used to denote the boundaries of the regular expression.
+Don't add these to your regular expression. ReadLayer takes care of it.
+:::
 
 #### Examples
 
