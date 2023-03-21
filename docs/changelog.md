@@ -7,10 +7,16 @@ slug: /changelog
 
 All notable fixes and features are documented here.
 
-Type of updates: &nbsp;&nbsp; ⛑ Fix &nbsp;&nbsp; 🎁 New feature  &nbsp;&nbsp; 🗞 Documentation
+Type of updates: &nbsp;&nbsp; ⛑ Fix &nbsp;&nbsp; 🎁 New feature  &nbsp;&nbsp; ✨Improvement &nbsp;&nbsp; 🗞 Documentation 
 
+### 0.3.4
+_2023, March 21_
 
-### 0.33
+- ✨ Better error reporting when adding items to your collection.
+- 🎁 Emoji - ReadLayer supports search by Emoji ☘️. You can even add several emojis to the same item. For example, you can create an item with the following terms 😀, 😁, 😂, 😍, 🤗, 😻 to spot happy passages.
+- ⛑ Fix issue that prevented deleting a theme from the theme card.
+
+### 0.3.3
 _2023, March 08_
 
 - 🎁 `Similar` queries are now more powerful. You can combine strict terms and search by proximity. Check out the [Documentation](queries#similar). 
@@ -18,6 +24,6 @@ _2023, March 08_
 - ⛑ PDF - You can open a PDF in a new tab. Before, the PDF was always opening in the main tab. 
 - 🗞 New link to documentation in the extension footer.
 
-### 0.32
+### 0.3.2
 
 - 🎉 Initial version!!🤖
