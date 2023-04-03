@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 title: Changelog
 description: All changes related to each version
 slug: /changelog
@@ -8,6 +8,13 @@ slug: /changelog
 All notable fixes and features are documented here.
 
 Type of updates: &nbsp;&nbsp; ⛑ Fix &nbsp;&nbsp; 🎁 New feature  &nbsp;&nbsp; ✨Improvement &nbsp;&nbsp; 🗞 Documentation 
+
+### 0.3.5
+_2023, March ??_
+
+- 🎁 The exact words or sentences highlighted are now listed in the Page section of the extension.
+- 🎁 New shortcuts available to go to next/previous highlight (Next -> Mac: <kbd>⌘</kbd> + <kbd>⇧</kbd> + <kbd>→</kbd>, Windows and others: <kbd>Ctrl</kbd> + <kbd>→</kbd>. Previous-> Mac: <kbd>⌘</kbd> + <kbd>⇧</kbd> + <kbd>←</kbd>, Windows and others: <kbd>Ctrl</kbd> + <kbd>←</kbd>). It works even when the extension is closed! [More information](/hotkeys)
+- ✨ A more prominent PDF highlight effect to spot occurrences easily.
 
 ### 0.3.4
 _2023, March 21_
