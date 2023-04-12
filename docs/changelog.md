@@ -9,6 +9,12 @@ All notable fixes and features are documented here.
 
 Type of updates: &nbsp;&nbsp; ⛑ Fix &nbsp;&nbsp; 🎁 New feature  &nbsp;&nbsp; ✨Improvement &nbsp;&nbsp; 🗞 Documentation 
 
+### 0.3.6
+_2023, April 11_
+
+- ✨Click on the navigation index to repeat the highlight effect. Useful when you have a lot of highlights or in PDF.
+- ⛑Fix issue that prevented highlight navigation in a PDF with more than one page.
+
 ### 0.3.5
 _2023, April 03_
 
