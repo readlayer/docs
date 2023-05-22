@@ -7,13 +7,18 @@ slug: /changelog
 
 All notable fixes and features are documented here.
 
-Type of updates: &nbsp;&nbsp; ⛑ Fix &nbsp;&nbsp; 🎁 New feature  &nbsp;&nbsp; ✨Improvement &nbsp;&nbsp; 🗞 Documentation 
+Type of updates: &nbsp;&nbsp; ⛑ Fix &nbsp;&nbsp; 🎁 New feature  &nbsp;&nbsp; ✨Improvement &nbsp;&nbsp; 🗞 Documentation
+
+### 0.4.0
+_2023, May 21_
+
+- 🎁 New system to store your collections. Now your collections are encrypted locally and compressed. This means better privacy, more space to store more items, and better performance. If you work across devices and syncing is enabled in your browser, the data is synced to any Chrome browser that the user is logged into.
 
 ### 0.3.6
 _2023, April 11_
 
-- ✨Click on the navigation index to repeat the highlight effect. Useful when you have a lot of highlights or in PDF.
-- ⛑Fix issue that prevented highlight navigation in a PDF with more than one page.
+- ✨ Click on the navigation index to repeat the highlight effect. Useful when you have a lot of highlights or in PDF.
+- ⛑ Fix issue that prevented highlight navigation in a PDF with more than one page.
 
 ### 0.3.5
 _2023, April 03_
@@ -32,9 +37,9 @@ _2023, March 21_
 ### 0.3.3
 _2023, March 08_
 
-- 🎁 `Similar` queries are now more powerful. You can combine strict terms and search by proximity. Check out the [Documentation](queries#similar). 
+- 🎁 `Similar` queries are now more powerful. You can combine strict terms and search by proximity. Check out the [Documentation](queries#similar).
 - 🎁 SVG - ReadLayer supports highlights in SVG text.
-- ⛑ PDF - You can open a PDF in a new tab. Before, the PDF was always opening in the main tab. 
+- ⛑ PDF - You can open a PDF in a new tab. Before, the PDF was always opening in the main tab.
 - 🗞 New link to documentation in the extension footer.
 
 ### 0.3.2
