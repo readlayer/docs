@@ -9,6 +9,12 @@ All notable fixes and features are documented here.
 
 Type of updates: &nbsp;&nbsp; ⛑ Fix &nbsp;&nbsp; 🎁 New feature  &nbsp;&nbsp; ✨Improvement &nbsp;&nbsp; 🗞 Documentation
 
+### 0.4.1
+_2023, May 31_
+
+- ⛑ Fix issue that prevented users to remove collection items related to others.
+- ✨ The extension version is now visible on the extension's footer.
+
 ### 0.4.0
 _2023, May 21_
 
